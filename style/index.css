@@ -1,53 +1,105 @@
 /* Add CSS styling here */
+body{
+    background-image: url(https://i.picsum.photos/id/1033/2048/1365.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+   
+   
+
+}
+.container{
+    margin: auto;
+    width:1000px;
+    height: auto;
+}
 header{
     display:flex;
     justify-content: space-between;
-    border: 3px solid black;
+    align-items: center;
+    background-color: black, .08;
+    
+}
+h1 {
+    font-family: "Andale Mono",AndaleMono,monospace;
+    color:#d1d1d1;
+    font-stretch: expanded;
+    font-size: 50px;
 }
 
+h2{
+    font-family: "Andale Mono",AndaleMono,monospace;
+    color:#f3eded;
+    font-stretch: expanded;
+    font-size: 25px;
+}
+
+.aboutMe{
+    font-family: "Andale Mono",AndaleMono,monospace;
+    color:#f3eded;
+    font-stretch: expanded;
+    font-size: 15px;
+}
 .navigation{
+    font-family: "Andale Mono",AndaleMono,monospace;
     display:flex
     justify-content: space-evenly;
     align-items: center;
-
+    font-size: 25px;
+    color:white;
 }
 
 .content{
     display:flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: auto;
+    padding:20px;
+    width:500px;
+    height:225px;
+    border-radius: 10px;
 }
 
 .centerContent{
-    width: 500px;
-    height: 500px;
-    border: solid black;
-    text-align: center;
+    width: auto;
+    height: auto;
+    text-align: left;
 }
 
-.project{
+.projects{
     display:flex;
     justify-content: center;
     align-items: center;
-    border: solid black;
+    flex-wrap: wrap;
 }
 
 .projectBoxes {
     display: flex;
-    flex-flow: wrap;
-    width: 90%;
+    flex-flow:wrap;
+    margin:auto;
+    font-family: "Andale Mono",AndaleMono,monospace;
+    color:#d1d1d1;   
+    text-align: center;
+
 }
 
 .projectBoxes > div {
     align-items: center;
+    justify-content: space-evenly;
     width: 300px;
     height: 300px;
-    border: solid black;
     margin: 5px;
 }
 
 .contact{
-    border: solid black;
     text-align: center;
-    height: 100px;
+    height: 50px;
+    font-family: "Andale Mono",AndaleMono,monospace;
+    color:#d1d1d1;
+    font-stretch: expanded;
+    font-size: 25px;
 }
+
+  
