@@ -119,6 +119,34 @@ a{
     justify-content: space-evenly;
 }
 
-@media(){
+@media(max-width: 800px){
 
+}
+
+@media(max-width:500px){
+    .container{
+        width:100%
+    }
+    h1{
+        display:none;
+    }
+
+    .header{
+        width: 100%;
+    }
+
+    .content{
+        width: 100%;
+        border:white 1px;
+    }
+
+    .projectBoxes{
+        flex-direction: column;
+    }
+    .contact{
+        width:100%;
+       
+    }
+
+     
 }
