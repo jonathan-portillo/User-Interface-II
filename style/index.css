@@ -1,1 +1,123 @@
 /* Add CSS styling here */
+body{
+    background-image: url(https://i.picsum.photos/id/1033/2048/1365.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: "Andale Mono",AndaleMono,monospace;
+}
+
+.container{
+    margin: auto;
+    width:100%;
+    max-width:1000px;
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black, .08;
+    
+}
+h1 {
+    color:#d1d1d1;
+    font-stretch: expanded;
+    font-size: 50px;
+}
+
+h2{
+    color:#f3eded;
+    font-stretch: expanded;
+    font-size: 25px;
+}
+
+h3{
+    color:#f3eded;
+    font-stretch: expanded;
+    font-size: 15px;
+}
+
+.projectsButton{
+    color:#f3eded;
+    font-stretch: expanded;
+    font-size: 15px;
+}
+
+button{
+    
+    color: #f3eded;
+    background-color:rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-family: "Andale Mono",AndaleMono,monospace;
+
+}
+a{
+    text-decoration: none;
+    color: #d1d1d1;
+
+}
+.navigation{
+    display:flex
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 25px;
+    
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: auto;
+    padding:20px;
+    width:500px;
+    height:225px;
+    border-radius: 10px;
+}
+
+.centerContent{
+    width: auto;
+    height: auto;
+    text-align: center;
+}
+
+.projects{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projectBoxes {
+    display: flex;
+    flex-flow:wrap;
+    margin:auto;
+    color:#d1d1d1;   
+    text-align: center;
+
+}
+
+.projectBoxes > div {
+    align-items: center;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.contact{
+    text-align: center;
+    align-content: center;
+    margin: 10px
+    height: 75rm;
+    font-size: 25px;
+}
+
+.contact p{
+    display: Flex;
+    justify-content: space-evenly;
+}
