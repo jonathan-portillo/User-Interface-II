@@ -4,15 +4,14 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    
-   
-   
-
+    font-family: "Andale Mono",AndaleMono,monospace;
 }
+
 .container{
     margin: auto;
-    width:1000px;
-    height: auto;
+    width:100%;
+    max-width:1000px;
+
 }
 header{
     display:flex;
@@ -22,32 +21,50 @@ header{
     
 }
 h1 {
-    font-family: "Andale Mono",AndaleMono,monospace;
     color:#d1d1d1;
     font-stretch: expanded;
     font-size: 50px;
 }
 
 h2{
-    font-family: "Andale Mono",AndaleMono,monospace;
     color:#f3eded;
     font-stretch: expanded;
     font-size: 25px;
 }
 
-.aboutMe{
-    font-family: "Andale Mono",AndaleMono,monospace;
+h3{
     color:#f3eded;
     font-stretch: expanded;
     font-size: 15px;
 }
-.navigation{
+
+.projectsButton{
+    color:#f3eded;
+    font-stretch: expanded;
+    font-size: 15px;
+}
+
+button{
+    
+    color: #f3eded;
+    background-color:rgba(0, 0, 0, 0.25);
+    font-size: 15px;
+    padding: 10px 16px;
+    border-radius: 10px;
     font-family: "Andale Mono",AndaleMono,monospace;
+
+}
+a{
+    text-decoration: none;
+    color: #d1d1d1;
+
+}
+.navigation{
     display:flex
     justify-content: space-evenly;
     align-items: center;
     font-size: 25px;
-    color:white;
+    
 }
 
 .content{
@@ -65,7 +82,7 @@ h2{
 .centerContent{
     width: auto;
     height: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .projects{
@@ -79,7 +96,6 @@ h2{
     display: flex;
     flex-flow:wrap;
     margin:auto;
-    font-family: "Andale Mono",AndaleMono,monospace;
     color:#d1d1d1;   
     text-align: center;
 
@@ -95,11 +111,13 @@ h2{
 
 .contact{
     text-align: center;
-    height: 50px;
-    font-family: "Andale Mono",AndaleMono,monospace;
-    color:#d1d1d1;
-    font-stretch: expanded;
+    align-content: center;
+    margin: 10px
+    height: 75rm;
     font-size: 25px;
 }
 
-  
+.contact p{
+    display: Flex;
+    justify-content: space-evenly;
+}
