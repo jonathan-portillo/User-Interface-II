@@ -120,31 +120,35 @@ a{
 }
 
 @media(max-width: 800px){
-
-}
-
-@media(max-width:500px){
     .container{
         width:100%;
         align-items: center;
-    }
-    h1{
-        display:none;
-    }
 
-    .header{
-        width: 100%;
-    }
+}
+
+h1{
+    display:none;
+}
+
+.header{
+    width: 100%;
+}
+
+.projectBoxes{
+    padding-left: 5%;
+}
+
+@media(max-width:500px){
 
     .navigation{
+        width: 100%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         text-align: center;
-        padding-left: 22%;
+        padding-left: 0%;
     }
     .content{
-        width: 100%;
-        border:white 1px;
+        width: 90%;
     }
 
     .projects{
@@ -159,8 +163,8 @@ a{
         justify-content: center;
     }
     .contact{
-        width:100%;
-        align-items: center;
+        width: 80%;
+
        
     }
 
